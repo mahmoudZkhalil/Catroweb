@@ -65,16 +65,16 @@
         },
         {
             "name": "catrobat/capi",
-            "version": "v1.0.57",
+            "version": "v1.0.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Catrobat/Catroweb-API.git",
-                "reference": "3ffad6e8d98c9f19d48ad87b502c6f6fc80d08f5"
+                "reference": "9d45a163e25e4f3ed13151113ffed40873a49fd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Catrobat/Catroweb-API/zipball/3ffad6e8d98c9f19d48ad87b502c6f6fc80d08f5",
-                "reference": "3ffad6e8d98c9f19d48ad87b502c6f6fc80d08f5",
+                "url": "https://api.github.com/repos/Catrobat/Catroweb-API/zipball/9d45a163e25e4f3ed13151113ffed40873a49fd0",
+                "reference": "9d45a163e25e4f3ed13151113ffed40873a49fd0",
                 "shasum": ""
             },
             "require": {
@@ -82,16 +82,11 @@
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "jms/serializer-bundle": "^2.0",
-                "php": ">=7.2",
-                "symfony/framework-bundle": "^3.3|^4.1",
+                "php": "^7.4|^8.0",
+                "symfony/framework-bundle": "^4.4|^5.0",
                 "symfony/validator": "*"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "hoa/regex": "~1.0",
-                "phpunit/phpunit": "~4.8",
-                "satooshi/php-coveralls": "~1.0",
-                "squizlabs/php_codesniffer": "~2.6",
                 "symfony/browser-kit": "*"
             },
             "type": "library",
@@ -122,10 +117,10 @@
                 "sdk"
             ],
             "support": {
-                "source": "https://github.com/Catrobat/Catroweb-API/tree/v1.0.57",
+                "source": "https://github.com/Catrobat/Catroweb-API/tree/v1.0.62",
                 "issues": "https://github.com/Catrobat/Catroweb-API/issues"
             },
-            "time": "2021-03-09T21:26:10+00:00"
+            "time": "2021-04-05T17:58:25+00:00"
         },
         {
             "name": "clue/stream-filter",
