@@ -19,6 +19,7 @@
                 {% include 'Studio/studio_details_project_list.html.twig' %}
                 {% include 'Studio/studio_details_comment_list.html.twig' %}
                 {% include 'Studio/studio_detail_comment_reply.html.twig' %}
+                {% include 'Studio/studio_details_activity_list.html.twig' %}
             </div>
         </div>
     </section>
@@ -31,5 +32,5 @@
     <input id="update-cover-error" type="hidden" value="{{ 'studio.details.updateCoverError'|trans({}, 'catroweb') }}">
 {% endblock %}
 {% block js %}
-    {{ encore_entry_script_tags('tab-bar') }}
+{#    {{ encore_entry_script_tags('tab-bar') }}#}
 {% endblock %}
