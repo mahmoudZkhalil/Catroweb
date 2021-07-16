@@ -163,4 +163,8 @@ const Studio = function () {
       })
     }
   }
+
+  this.submitUpdateStudio = function () {
+    $('#updateStudioForm').trigger('submit')
+  }
 }

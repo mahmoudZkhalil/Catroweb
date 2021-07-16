@@ -785,7 +785,7 @@ studio:
   details:
     general: 'general'
     projects: 'projects'
-    comments: 'comments'
+    comments: 'Comments'
     public: 'public'
     private: 'private'
     join: 'Join'
@@ -803,3 +803,8 @@ studio:
     remove_comment_error: 'Something went wrong while removing the comment!'
     replies: 'replies'
     updateCoverError: 'Something went wrong while updating the studio cover!'
+    general_settings: 'General Settings'
+    studio_name: 'Studio Name'
+    studio_desc: 'Description'
+    private_studio: 'Private Studio'
+
